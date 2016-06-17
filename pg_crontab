@@ -1,0 +1,1 @@
+0 0 * * * root bash $BACKUP_SCRIPT_DIR/pg_backup_rotated.sh >> /var/log/cron.log 2>&1
